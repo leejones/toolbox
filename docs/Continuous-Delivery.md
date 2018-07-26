@@ -1,0 +1,1 @@
+* [Trunk Based Development](https://trunkbaseddevelopment.com) by Paul Hammant and Steve Smith 
