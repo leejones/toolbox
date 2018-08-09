@@ -18,6 +18,7 @@ Tools/Services that support continuous delivery and continuous deployment.
 
 * [Draft](https://github.com/Azure/draft) - Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control. It’s like heroku buildpacks + helm.
 * [Telepresence](https://www.telepresence.io) - Local development experience of services running in Kubernetes - allows you to develop against a bunch of services without having to run them all on your laptop
+* [Pets](https://github.com/windmilleng/pets) - Manage multiple services for local development. It supports local services in something like Minikube or setting up portforwarding to a remote Kubernetes cluster.
 
 ## Disaster Recovery
 
