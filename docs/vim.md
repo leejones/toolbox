@@ -18,3 +18,11 @@ This is useful for performing the same edit in multiple places.
 4. Replay the recording by pressing `@<letter from earlier>`. Press `@@` replay the last playback. You can also use the `.` key to repeat the last action (playback or otherwise).
 
 Source: http://vim.wikia.com/wiki/Recording_keys_for_repeated_jobs
+
+## Expand tabs
+
+```
+:set tabstop=2
+:set softabs=2
+:set expandtabs
+```
