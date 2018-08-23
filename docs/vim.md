@@ -1,15 +1,15 @@
 ## Surround a word with a character
 
-Example of surrounding a word with backticks:
+Example of surrounding a word with with a single quote:
 
 ```
-cw`ctl+r"`
+cw'ctl+r"'
 ```
 
 * `cw` - Delete the word the cursor is on, and end up in insert mode.
-* `\`` - add the first quote.
+* `'` - add the first quote.
 * `ctrl+r"` - Insert the contents of the `"` register, aka the last yank/delete.
-* ``` - add the closing quote.
+* `'` - add the closing quote.
 
 Source: https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words
 
