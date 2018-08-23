@@ -7,7 +7,7 @@ cw`ctl+r"`
 ```
 
 * `cw` - Delete the word the cursor is on, and end up in insert mode.
-* ``` - add the first quote.
+* `\`` - add the first quote.
 * `ctrl+r"` - Insert the contents of the `"` register, aka the last yank/delete.
 * ``` - add the closing quote.
 
