@@ -8,7 +8,7 @@ cw'ctl+r"'
 
 * `cw` - Delete the word the cursor is on, and end up in insert mode.
 * `'` - add the first quote.
-* `ctrl+r"` - Insert the contents of the `"` register, aka the last yank/delete.
+* `ctl+r"` - Insert the contents of the `"` register, aka the last yank/delete.
 * `'` - add the closing quote.
 
 Source: https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words
