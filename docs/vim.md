@@ -1,3 +1,18 @@
+## Surround a word with a character
+
+Example of surrounding a word with backticks:
+
+```
+cw`ctl+r"`
+```
+
+* `cw` - Delete the word the cursor is on, and end up in insert mode.
+* ``` - add the first quote.
+* `ctrl+r"` - Insert the contents of the `"` register, aka the last yank/delete.
+* ``` - add the closing quote.
+
+Source: https://stackoverflow.com/questions/2147875/what-vim-commands-can-be-used-to-quote-unquote-words
+
 ## Opening multiple files with xargs
 
 To open multiple files without messing up STDIN on your terminal, use `xargs -o` (on OSX/BSD):
@@ -6,7 +21,7 @@ To open multiple files without messing up STDIN on your terminal, use `xargs -o`
 ls -1 | xargs -o vim
 ```
 
---source https://superuser.com/a/427881
+Source: https://superuser.com/a/427881
 
 ## Recording keystrokes for playback
 
