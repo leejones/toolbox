@@ -1,3 +1,9 @@
+## Set the namespace (or other options) for a context
+
+```
+kubectl config set-context <NAME_OF_CONTEXT> --namespace <NAME_OF_NAMESPACE>
+```
+
 ## `kubectl convert`
 
 Convert config files between different API versions.
