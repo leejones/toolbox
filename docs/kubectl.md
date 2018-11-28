@@ -1,3 +1,11 @@
+## Selector with multiple values
+
+To match where `app=filebeat` OR `app=logstash`:
+
+```
+kubectl get pods --selector 'app in (filebeat,logstash)'
+```
+
 ## Set the namespace (or other options) for a context
 
 ```
