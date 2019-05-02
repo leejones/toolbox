@@ -1,6 +1,6 @@
 ## Delete an image from Container Registry
 
-The image revision must have all tags removed before it can be deleted.
+Each image revision must have all tags removed before it can be deleted. The `--force-delete-tags` flag can help streamline this process.
 
 ```
 $> gcloud container images list-tags gcr.io/<project-name>/<image-name> --format 'value("digest")' | sed -e 's/^/gcr.io\/<project-name>\/<image-name>@sha256:/' | xargs -P 4 -n 25 gcloud container images delete --force-delete-tags --quiet
