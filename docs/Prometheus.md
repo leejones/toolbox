@@ -1,4 +1,4 @@
-## Find the 20 biggest timeseries by metric name and job
+## Find the 20 biggest time series by metric name and job
 
 ```
 topk(20, count by (__name__, job)({__name__=~".+"})).
