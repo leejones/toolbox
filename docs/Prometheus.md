@@ -15,3 +15,5 @@ scrape_samples_scraped
 ```
 
 This metric is a guage.
+
+-- https://www.robustperception.io/using-sample_limit-to-avoid-overload
