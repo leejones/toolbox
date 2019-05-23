@@ -1,3 +1,9 @@
+## Tooling
+
+### Alertmanager
+
+* Preview Slack alert notification changes: https://juliusv.com/promslack/
+
 ## Helpful Queries
 
 ### 20 biggest time series by metric name and job
