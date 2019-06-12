@@ -1,3 +1,10 @@
+## Folds
+
+* `zf` - create a fold
+* `zo` - expand a fold
+* `zc` - collapse a fold
+* `zd` - delete a fold
+
 ## Surround a word with a character
 
 Example of surrounding a word with with a single quote:
