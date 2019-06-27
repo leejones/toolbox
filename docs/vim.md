@@ -6,13 +6,13 @@ List previous deletes/yanks:
 :reg
 ```
 
-Paste item 2 for the register before the cursor:
+Paste item 2 for the register after the cursor:
 
 ```
 "2p
 ```
 
-Paste item 2 for the register after the cursor:
+Paste item 2 for the register before the cursor:
 
 ```
 "2P
