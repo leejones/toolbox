@@ -1,3 +1,25 @@
+## Pasting previous deletes/yanks
+
+List previous deletes/yanks:
+
+```
+:reg
+```
+
+Paste item 2 for the register before the cursor:
+
+```
+"2p
+```
+
+Paste item 2 for the register after the cursor:
+
+```
+"2P
+```
+
+-- https://vim.fandom.com/wiki/Remembering_previous_deletes/yanks
+
 ## Folds
 
 * `zf` - create a fold
