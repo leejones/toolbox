@@ -1,3 +1,12 @@
+## List all resources in the cluster
+
+`kubectl get all` only shows specific resources and doesn't show any CRDs. Instead, use this:
+
+```
+kubectl api-resources --verbs=list --namespaced -o name  --context [KUBECTL_CONTEXT] \
+  | xargs -n 1 kubectl get --show-kind --ignore-not-found --namespace NAMESPACE --context [KUBECTL_CONTEXT]
+```
+
 ## Selector with multiple values
 
 To match where `app=filebeat` OR `app=logstash`:
