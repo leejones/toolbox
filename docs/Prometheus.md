@@ -1,6 +1,6 @@
 ## Resources
 
-* [Avoid time-of-measuerment bias with Prometheus](https://blog.lawrencejones.dev/incremental-measurement/) - shows how to get more helpful job duration measurements from long-running processes.
+* [Avoid time-of-measuerment bias with Prometheus](https://blog.lawrencejones.dev/incremental-measurement/) - shows how to get more helpful job duration measurements from long-running processes (e.g. background workers).
 
 ## Tooling
 
