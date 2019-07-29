@@ -1,3 +1,7 @@
+## Resources
+
+* [Avoid time-of-measuerment bias with Prometheus](https://blog.lawrencejones.dev/incremental-measurement/) - shows how to get more helpful job duration measurements from long-running processes.
+
 ## Tooling
 
 ### Alertmanager
