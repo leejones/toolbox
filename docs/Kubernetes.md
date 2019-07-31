@@ -26,6 +26,7 @@ Tools/Services that support continuous delivery and continuous deployment.
 
 ## Miscellaneous
 
+* [What is "reconciliation"](https://speakerdeck.com/thockin/kubernetes-what-is-reconciliation) a short visual overview of what reconciliation is, some different forms it can take (uni-directional vs bi-directional), and some of the challanges invovled - all in the context of Kubernetes
 * [Brigade](https://github.com/Azure/brigade) - Build event based workflows that use Kubernetes jobs
 * [Kubeapps](https://kubeapps.com) - a tool that installs a helm, kubeless, sealed secrets, and a web UI for managing helm charts and kubeless functions.
 
