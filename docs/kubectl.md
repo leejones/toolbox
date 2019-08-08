@@ -1,4 +1,4 @@
-## Create one-time resources
+## Create resources imparatively (e.g. one-off resources)
 
 ### Pod
 
