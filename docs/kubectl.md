@@ -1,3 +1,23 @@
+## Create one-time resources
+
+### Pod
+
+```
+kubectl run --generator=run-pod/v1 --image=nginx nginx
+```
+
+### Deployment
+
+```
+kubectl create deployment --image nginx --replicas 3 nginx
+```
+
+### Service
+
+```
+kubectl expose deployment nginx --port=80 --target-port=8000
+```
+
 ## List all resources in the cluster
 
 `kubectl get all` only shows specific resources and doesn't show any CRDs. Instead, use this:
