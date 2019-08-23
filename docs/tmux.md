@@ -12,8 +12,10 @@ Highlighting one and pressing enter will send the contents to the screen.
 
 ```
 ctl + b :
-setw synchronize-panes on
+set-window-option synchronize-panes on
 ```
+
+`setw` is the short form of `set-window-option`.
 
 -- based on https://stackoverflow.com/questions/16325449/how-to-send-a-command-to-all-panes-in-tmux
 
