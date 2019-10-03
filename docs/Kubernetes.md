@@ -24,6 +24,11 @@ Tools/Services that support continuous delivery and continuous deployment.
 
 * [Heptio Ark](https://github.com/heptio/ark) - tool for cluster disaster recovery
 
+## Liveness and Readiness Probes
+
+* Do's and Don'ts from Henning Jacobs, Zalando: [Kubernetes Liveness Probes are Dangerous
+](https://srcco.de/posts/kubernetes-liveness-probes-are-dangerous.html). In general, don't use liveness probes unless you have a strong use case. They can often lead to downtime/cascading failure if used incorrectly.
+
 ## Miscellaneous
 
 * [What is "reconciliation"](https://speakerdeck.com/thockin/kubernetes-what-is-reconciliation) a short visual overview of what reconciliation is, some different forms it can take (uni-directional vs bi-directional), and some of the challanges invovled - all in the context of Kubernetes
