@@ -45,8 +45,13 @@ Tools/Services that support continuous delivery and continuous deployment.
 * Bitnami’s [sealed-secrets](https://github.com/bitnami/sealed-secrets) - allow you to keep the encrypted secrets in git, adds a customer controller to the cluster to encrypt/decrypt
 * Shopify’s [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) uses [EJSON](https://github.com/Shopify/ejson) (encrypted JSON, also made by Shopfiy)
 
+## Resource Requests and Limits
+
+* A guide from Kubecost: http://blog.kubecost.com/blog/requests-and-limits/. The articles mentions to use the `container_memory_working_set_bytes` metric when evaluating memory because that's what Kubernetes uses for OOM and scheduling decisions.
+
 ## Talks
 
+* The Certified Kubernetes Administrator course on Udemy is excellent: https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/
 * StackPointCloud has a great [YouTube channel](https://www.youtube.com/user/StackPointCloud/videos) with videos from various Kubernetes meetups and events
 
 ## Training
