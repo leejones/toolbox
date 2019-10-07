@@ -39,7 +39,16 @@ Copy text from buffer to clipboard:
 
 ## Resize split panes
 
+Manually adjust pane:
+
 `ctl + b esc arrow-key`
+
+Stack panes vertically and set to equal vertical height:
+
+```
+ctl + b
+select-layout even-vertical
+```
 
 ## Fullscreen a split pane (zoom)
 
