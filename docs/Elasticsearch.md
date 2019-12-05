@@ -12,7 +12,7 @@ Display explaination for the first unassigned shard the cluster finds:
 curl http://localhost:9200/_cluster/allocation/explain?pretty
 ```
 
-Display info on a specific unassigned shard:
+Display explaination on a specific unassigned shard:
 
 ```
 curl --header "Content-type: application/json" --request GET http://localhost:9200/_cluster/allocation/explain?pretty -d '{ "index": "TODO", "shard": 0, "primary": true }'
