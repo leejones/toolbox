@@ -1,3 +1,20 @@
+## See the status of in-progress shard recoveries (relocating etc)
+
+```
+curl --silent http://localhost:9200/_cat/recovery?active_only\&v
+```
+
+Similar details in JSON form:
+
+```
+curl --silent localhost:9200/_recovery?active_only\&pretty
+```
+
+References:
+
+* [index recovery API docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-recovery.html)
+* [cat recovery API docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-recovery.html)
+
 ## Find out why there are unassigned shards
 
 List all unassigned shards with a high level reason:
