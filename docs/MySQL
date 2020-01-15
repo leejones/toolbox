@@ -1,0 +1,7 @@
+# MySQL
+
+## Describe a Table's Structure
+
+`describe <table name>` or `desc <table name`.
+
+The output is more readable than `show create table <table name>`
