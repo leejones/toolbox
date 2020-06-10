@@ -1,5 +1,19 @@
 ## Detect if script input or output is going to a TTY (terminal)
 
+### Format ouput into columns
+
+Create columns based on spaces:
+
+```
+$> some-command | column -t
+```
+
+Create columns based on tabs:
+
+```
+$> some-command | column -t -s $'\t'
+```
+
 ### Input is a TTY
 
 ```
