@@ -3,6 +3,15 @@
 * [Avoid time-of-measuerment bias with Prometheus](https://blog.lawrencejones.dev/incremental-measurement/) - shows how to get more helpful job duration measurements from long-running processes (e.g. background workers).
 * [Phippy and Zee Go to the Mountains](https://phippygoestothemountains.github.io) - an illustrated explanation of Prometheus
 
+## Concepts
+
+* **sample** - a numerical measurement at a specific point in time
+* **labels** - metadata about a sample
+* **time series** - a collection of samples, can be displayed on a graph
+* **(instant) vector** - a measurement at a specific time (usually now)
+* **range vector** - all samples during a window of time
+* **functions** - a way of combining time series, often used with range vectors
+
 ## Tooling
 
 ### Alertmanager
