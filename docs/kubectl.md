@@ -1,4 +1,4 @@
-## cluster component statuses
+## Get cluster component statuses
 
 ```
 kubectl get componentstatuses
