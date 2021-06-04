@@ -47,7 +47,14 @@ Stack panes vertically and set to equal vertical height:
 
 ```
 ctl + b
-select-layout even-vertical
+:select-layout even-vertical
+```
+
+For positioning horizontally:
+
+```
+ctl + b
+:select-layout even-horizontal
 ```
 
 ## Fullscreen a split pane (zoom)
