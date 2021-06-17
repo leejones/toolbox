@@ -22,7 +22,8 @@ Alternatively, `get cs`.
 ### Pod
 
 ```
-kubectl run --generator=run-pod/v1 --image=nginx nginx
+kubectl run [name] --image=[name] --command -- [command] [arg1] [arg2]...
+kubectl run testing --rm --attach --tty --stdin --image=alpine --serviceaccount testing-service-account --command -- ash
 ```
 
 ### Deployment
