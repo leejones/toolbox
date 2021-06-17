@@ -21,9 +21,16 @@ Alternatively, `get cs`.
 
 ### Pod
 
+Syntax:
+
 ```
 kubectl run [name] --image=[name] --command -- [command] [arg1] [arg2]...
-kubectl run testing --rm --attach --tty --stdin --image=alpine --serviceaccount testing-service-account --command -- ash
+```
+
+Example:
+
+```
+kubectl run testing --attach --image=alpine --rm --stdin --tty --command -- ash
 ```
 
 ### Deployment
