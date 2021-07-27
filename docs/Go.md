@@ -8,3 +8,4 @@
 
 * 🗒️ [Using `ldflags` to set version information for CLI apps](https://www.digitalocean.com/community/tutorials/using-ldflags-to-set-version-information-for-go-applications)
 * 📺 [33m talk](https://www.youtube.com/watch?v=MHv6cWjvQjM) by Liz Rice where she live codes the process of creating a basic container with Go
+* 🗒️ [The Tao of Go](https://bitfieldconsulting.com/golang/tao-of-go)
