@@ -1,3 +1,12 @@
+## Filter on fields not availble in `--field-selector`
+
+The `--field-selector` option only supports a small number of fields for filtering results and generally doesn't work for CRDs. An alternative is to use the `jsonpath` output option, for example:
+
+```
+# List pods whose restartPolicy is not `Always`
+kubectl get pods --output=jsonpath='{range .items[?(.spec.restartPolicy!="Always")]}{.metadata.name}{"\n"}{end}'
+```
+
 ## Get cluster component statuses
 
 ```
