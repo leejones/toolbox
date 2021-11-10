@@ -1,3 +1,25 @@
+## Search highlighting
+
+Highlight all search results: `:set hlsearch`.
+
+Automatically disable highlighting (by pressing `esc` twice):
+
+```
+nnoremap <esc><esc> :silent! nohlsearch<cr>
+```
+
+## Operating on search matches using gn
+
+Search for a term: `/termToSearchFor`
+
+Change the next match: `cgn`
+
+Repeat the change for the next match: `.`
+
+See also [Search highlighting (above)](#search-highlighting).
+
+-- http://vimcasts.org/episodes/operating-on-search-matches-using-gn/
+
 ## Pasting previous deletes/yanks
 
 List previous deletes/yanks:
