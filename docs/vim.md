@@ -1,3 +1,20 @@
+## Using External Commands
+
+Insert the ouput of an external command:
+
+```
+:read !echo "Some text to add"
+```
+
+Run highlighted text through an external command and replace the highlighted text with the result of the external command:
+
+```
+# highlight the text using Visual mode
+!grep ONLY_CERTAIN_LINES
+```
+
+The highlighted text will be passed to the command via stdin.
+
 ## Search highlighting
 
 Highlight all search results: `:set hlsearch`.
