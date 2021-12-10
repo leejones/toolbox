@@ -9,15 +9,16 @@ This can be useful for local development and testing of libraries, for example:
    "version": 1,
    "dependencies": [
      {
--      "git": {
--        "remote": "https://github.com/example/jsonnet-repo.git",
--         "subdir": ""
-+      "source": {
+       "source": {
+-        "git": {
+-          "remote": "https://github.com/example/jsonnet-libs.git",
+-          "subdir": ""
 +        "local": {
-+          "directory": "../../jsonnet-repo"
++          "directory": "../../jsonnet-libs"
          }
-       },
-       "version": "main"
+-      },
+-      "version": "main"
++      }
      }
    ]
  }
