@@ -1,14 +1,27 @@
 ## Learning Go
 
+### Resources I've read/watched and would recommend
+
 * Book: [The Go Programming Language](https://www.gopl.io) by Alan A. A. Donovan and Brian W. Kernighan
 * eBooks: [For the Love of Go](https://bitfieldconsulting.com/books) by John Arundel
 * Video Course: [Go: The Complete Developer's Guide](https://www.udemy.com/course/go-the-complete-developers-guide/) by Stephen Grider
+* Book: [Distributed Services with Go](https://pragprog.com/titles/tjgo/distributed-services-with-go/) by Travis Jeffery - Walks through building a distributed system like Kafka.
 
-## Misc Resources
+### Resources I'm interested in checking out
+
+* [Powerful Command-Line Applications in Go](https://pragprog.com/titles/rggo/powerful-command-line-applications-in-go/)
+* [Blackhat Go](https://nostarch.com/blackhatgo) has interesting chapters on tcp and http. Could be a fun way to learn about those and go. 
+* [Networking with Go](https://nostarch.com/networkprogrammingwithgo)
+* [Go Programming Blueprints](https://www.amazon.com/Programming-Blueprints-real-world-production-ready-cutting-edge-ebook/dp/B01GQCQ8OW) by Mat Ryer, each chapter has a real world example, several are about web development 
+
+
+### Misc Resources
 
 * 🗒️ [Using `ldflags` to set version information for CLI apps](https://www.digitalocean.com/community/tutorials/using-ldflags-to-set-version-information-for-go-applications)
 * 📺 [33m talk](https://www.youtube.com/watch?v=MHv6cWjvQjM) by Liz Rice where she live codes the process of creating a basic container with Go
 * 🗒️ [The Tao of Go](https://bitfieldconsulting.com/golang/tao-of-go)
+* [Go Recipes blog](https://go-recipes.dev/)
+* 📺 [Ardan Labs (Bill Kennedy) YouTube Channel](https://youtube.com/channel/UCCgGRKeRM1b0LTDqqb4NqjA)
 
 ## Go Modules
 
