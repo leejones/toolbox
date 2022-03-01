@@ -66,6 +66,16 @@ Paste item 2 for the register before the cursor:
 * `zc` - collapse a fold
 * `zd` - delete a fold
 
+### Fold code that's between `{` and `}` braces:
+
+1. Put the cursor on the opening `{`
+2. Type `zfa}`
+
+This will create a fold from the opening `{` to its matching `}`. Vim will skip over any nested `{...}` pairs in-between.
+
+-- https://www.linux.com/training-tutorials/vim-tips-folding-fun/
+
+
 ## Surround a word with a character
 
 Example of surrounding a word with with a single quote:
