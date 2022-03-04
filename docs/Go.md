@@ -2,10 +2,11 @@
 
 ### Resources I've read/watched and would recommend
 
-* Book: [The Go Programming Language](https://www.gopl.io) by Alan A. A. Donovan and Brian W. Kernighan
-* eBooks: [For the Love of Go](https://bitfieldconsulting.com/books) by John Arundel
-* Video Course: [Go: The Complete Developer's Guide](https://www.udemy.com/course/go-the-complete-developers-guide/) by Stephen Grider
-* Book: [Distributed Services with Go](https://pragprog.com/titles/tjgo/distributed-services-with-go/) by Travis Jeffery - Walks through building a distributed system like Kafka.
+* :book: [The Go Programming Language](https://www.gopl.io) by Alan A. A. Donovan and Brian W. Kernighan
+* :book: (series) [For the Love of Go](https://bitfieldconsulting.com/books) by John Arundel
+* 📺 (course) [Go: The Complete Developer's Guide](https://www.udemy.com/course/go-the-complete-developers-guide/) by Stephen Grider
+* 📖 [Distributed Services with Go](https://pragprog.com/titles/tjgo/distributed-services-with-go/) by Travis Jeffery - Walks through building a distributed system like Kafka.
+* 📺 [GopherCon 2019: Marwan Sulaiman - Handling Go Errors](https://www.youtube.com/watch?app=desktop&v=4WIhhzTTd0Y)
 
 ### Resources I'm interested in checking out
 
@@ -22,6 +23,7 @@
 * 🗒️ [The Tao of Go](https://bitfieldconsulting.com/golang/tao-of-go)
 * [Go Recipes blog](https://go-recipes.dev/)
 * 📺 [Ardan Labs (Bill Kennedy) YouTube Channel](https://youtube.com/channel/UCCgGRKeRM1b0LTDqqb4NqjA)
+
 
 ## Go Modules
 
