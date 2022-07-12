@@ -18,6 +18,7 @@
 
 ### Misc Resources
 
+* [Top 5 Lessons I learned while working with Go for two years](https://sayedalesawy.hashnode.dev/top-5-lessons-i-learned-while-working-with-go-for-two-years) -  Has interesting tips about common concurrency issues.
 * 🗒️ [Avoid package names like base, util, or common](https://dave.cheney.net/2019/01/08/avoid-package-names-like-base-util-or-common)
 * 🗒️ [Using `ldflags` to set version information for CLI apps](https://www.digitalocean.com/community/tutorials/using-ldflags-to-set-version-information-for-go-applications)
 * 📺 [33m talk](https://www.youtube.com/watch?v=MHv6cWjvQjM) by Liz Rice where she live codes the process of creating a basic container with Go
