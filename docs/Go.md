@@ -30,6 +30,12 @@
 
 ## Go Modules
 
+### Create a new module
+
+```
+go mod init github.com/leejones/<module-name>
+```
+
 ### Use a local copy of a module
 
 This is useful for local development when working on two modules in parallel (e.g. a client library and an app that uses it).
@@ -52,3 +58,7 @@ go get github.com/UPSTREAM_USERNAME/REPO
 ```
 
 Use `github.com/UPSTREAM_USERNAME/REPO` in the `import` statements also (not the URL of the fork).
+
+## Testing
+
+* Keep fixtures in `testdata`.
