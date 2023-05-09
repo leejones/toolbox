@@ -1,3 +1,29 @@
+## HTTP request to a service or pod
+
+### Service
+
+```bash
+kubectl get --raw "/api/v1/namespaces/<namespaceName>/services/<serviceName>:<port>/proxy/<path>"
+```
+
+Example of an a request to the Prometheus metrics endpoint VTGate:
+
+```bash
+ kubectl get --raw "/api/v1/namespaces/default/services/mydb-primary-vtgate-0867c40b:15000/proxy/metrics"
+```
+
+### Pod
+
+```bash
+kubectl get --raw "/api/v1/namespaces/<namespaceName>/pod/<podName>:<port>/proxy/<path>"
+```
+
+Example of an HTTP request directly to one of the VTGate pods:
+
+```bash
+kubectl get --raw "/api/v1/namespaces/default/pods/mydb-primary-vtgate-0867c40b-755585b47b-94ptr:15000/proxy/metrics"
+```
+
 ## Filter on fields not availble in `--field-selector`
 
 The `--field-selector` option only supports a small number of fields for filtering results and generally doesn't work for CRDs. An alternative is to use the `jsonpath` output option, for example:
