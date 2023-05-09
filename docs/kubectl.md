@@ -15,7 +15,7 @@ Example of an a request to the Prometheus metrics endpoint VTGate:
 ### Pod
 
 ```bash
-kubectl get --raw "/api/v1/namespaces/<namespaceName>/pod/<podName>:<port>/proxy/<path>"
+kubectl get --raw "/api/v1/namespaces/<namespaceName>/pods/<podName>:<port>/proxy/<path>"
 ```
 
 Example of an HTTP request directly to one of the VTGate pods:
