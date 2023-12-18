@@ -1,3 +1,13 @@
+## Open/Close the Terminal
+
+<pre>ctl + `</pre>
+
+## Show Output (e.g `go test` output)
+
+```
+cmd + shift + u
+```
+
 ## Jumping back/forth between definitions and references etc
 
 When ctl clicking on a method to go to its definition or references, VSCode builds a stack of locations visited (like a browser history). Navigate foward/back through the stack with the following keyboard shortcuts:
