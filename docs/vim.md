@@ -1,3 +1,13 @@
+## Navigation
+
+- `b` to move to the beginning of a word (`B` does the same thing, but works in different cases (e.g. when the cursor is on a non-word character like !)
+- `e` to move to the end of a word
+
+## Editing
+
+- `s` change the charecter under the cusor (switchest to insert mode)
+- `x` delete characters under and after the cusror in the current line (e.g. `3x` would delete 3 characters)
+
 ## Using External Commands
 
 Insert the ouput of an external command:
