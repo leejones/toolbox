@@ -1,6 +1,6 @@
 # Screen Wake Lock
 
-Screen Wake Lock is a browser feature that allows websites to prevent a devices screen from turning off.
+Screen Wake Lock is a browser feature that allows websites to prevent a device's screen from turning off. This can be useful for cases like when you have a cooking recipe open on your phone and don't want the screen to dim or turn off.
 
 References:
 
