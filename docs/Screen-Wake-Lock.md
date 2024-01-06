@@ -5,3 +5,7 @@ Screen Wake Lock is a browser feature that allows websites to prevent a devices 
 ```
 javascript: (() => { alert('hello') })();
 ```
+
+```
+javascript: (() => { navigator.wakeLock.request("screen"); })();
+```
