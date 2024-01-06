@@ -11,12 +11,22 @@ References:
 
 - [Tutorial on bookmarklets](https://www.freecodecamp.org/news/what-are-bookmarklets/))
 
-How to add the bookmarklet on iOS:
+### How to add the bookmarklet on iOS
 
 1. In Safari, press and hold the book icon.
-2. Press "Add Bookmark".
-3. Enter a name like `Keep Screen On`.
-4. For the URL, copy a snippet from below and paste it in as the URL.
+2. Tap **Add Bookmark**.
+3. For the name, enter `Keep Screen On`.
+4. Tap **Save**. (note: you can't edit the URL yet)
+5. Copy a bookmarklet snippet from below.
+6. Tap the book icon.
+7. Find the bookmark you just created. Press and hold it.
+8. Tap **Edit**.
+9. Paste the snippet into the URL field.
+10. Tap **Save**.
+
+Now your bookmarklet is ready to use! Next time you're on a webpage and you want to keep the screen on, tap the book icon to open your bookmarks and tap the **Keep Screen On** bookmark.
+
+### Bookmarklet Snippets
 
 Basic bookmarklet to keep the screen on:
 
