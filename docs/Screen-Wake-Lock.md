@@ -6,8 +6,17 @@ References:
 
 - [MDN docs on the Screen Wake Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Wake_Lock_API)
 - [Blog post from Chrome dev blog](https://developer.chrome.com/docs/capabilities/web-apis/wake-lock)
-- [Tutorial on bookmarklets]([url](https://www.freecodecamp.org/news/what-are-bookmarklets/))
 
+## Bookmarklet
+
+- [Tutorial on bookmarklets](https://www.freecodecamp.org/news/what-are-bookmarklets/))
+
+How to add the bookmarklet on iOS:
+
+1. In Safari, press and hold the book icon.
+2. Press "Add Bookmark".
+3. Enter a name like `Keep Screen On`.
+4. For the URL, copy a snippet from below and paste it in as the URL.
 
 Basic bookmarklet to keep the screen on:
 
