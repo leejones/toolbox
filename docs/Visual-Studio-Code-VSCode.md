@@ -1,3 +1,54 @@
+## Collapse/Expand Code
+
+Aka code folding.
+
+### Collapse all code that's within a given object
+
+Click the `>` in the left gutter next to the line number.
+
+### Collapse all code that's within a given object, but show the names of the next level in the hierarchy
+
+Shift + click the `>` in the left gutter next to the line number. For example, if you wanted to collapse `objects` below and only show levels `a`, `b`, and `c` in the following hierarchy:
+
+```jsonnet
+objects: {
+  a: {
+    layers: {
+      one: {},
+      two: {},
+      three: {}
+    }
+  },
+  b: {
+    layers: {
+      one: {},
+      two: {},
+      three: {}
+    }
+  },
+  c: {
+    layers: {
+      one: {},
+      two: {},
+      three: {}
+    }
+  }
+}
+```
+
+The result would be:
+
+```jsonnet
+objects: {
+  a: { ...
+  },
+  b: { ...
+  },
+  c: { ...
+  }
+}
+```
+
 ## Open/Close the Terminal
 
 <pre>ctl + `</pre>
