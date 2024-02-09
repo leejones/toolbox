@@ -5,7 +5,7 @@
 
 ## Editing
 
-- `s` change the charecter under the cusor (switchest to insert mode)
+- `s` change the character under the cusor (switchest to insert mode)
 - `x` delete characters under and after the cusror in the current line (e.g. `3x` would delete 3 characters)
 
 ## Using External Commands
