@@ -1,3 +1,19 @@
+## Wait for background processes to complete
+
+`wait` will wait for background processes to complete, for example:
+
+```bash
+for i in {1..5}; do
+  sleep 3 && echo "${i} is done" &
+done
+
+wait
+
+echo "All done!"
+```
+
+Without the `wait`, the script would immediately print "All done!" and exit. Then the "X is done" lines would print 3 seconds later.
+
 ## Detect if script input or output is going to a TTY (terminal)
 
 ### Format ouput into columns
