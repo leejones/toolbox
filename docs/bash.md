@@ -1,3 +1,37 @@
+## Left pad a string with zeros using `printf`
+
+Use `printf` to left pad a string value with zeros. For example, to create a 10 digit string with any empty digits left padded with zeros:
+
+```sh
+$> printf '%010d\n' 100
+0000000100
+```
+
+Deconstructing the `%010d\n`
+
+- `%` indicates a format directive.
+- `0` option says to pad with zeros.
+- `10` option say it's 10 characters.
+- `d` says it's an integer.
+
+Useful for things like constructing a Vitess tablet's alias from the cell and uid:
+
+```sh
+$> printf '%s-%010d\n' main 100
+main-0000000100
+```
+
+Use `printf -v` to assign the value to a variable:
+
+```sh
+$> printf '%010d\n' 100
+0000000100
+ $> printf '%s-%010d\n' main 100
+main-0000000100 $> printf -v tablet_alias '%s-%010d\n' main 100
+$> echo $tablet_alias
+main-0000000100
+```
+
 ## Wait for background processes to complete
 
 `wait` will wait for background processes to complete, for example:
