@@ -75,6 +75,8 @@ Paste item 2 for the register before the cursor:
 * `zo` - expand a fold
 * `zc` - collapse a fold
 * `zd` - delete a fold
+* `zO` - expand all folds at cursor
+* `zC` - collapse all folds at cursor
 
 ### Fold code that's between `{` and `}` braces:
 
