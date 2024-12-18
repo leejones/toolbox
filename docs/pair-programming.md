@@ -11,9 +11,17 @@ A [talk](https://www.youtube.com/watch?v=S-ukCrsrTNw) by Stephanie Minn at RubyC
   - Talk focuses mostly on part 1.
   - Each part has 4 components
     - Observations
+      - Avoid judgements, assumptions, and generalizations. Instead, focus on what you can see/hear.
     - Feelings
+      - Sometimes we describe things as feelings that really aren't. For example "I feel unsupported by the team" is less of a feeling and more of an assessment/judement about the teams behavior.
+      - "External factors can be a stimulus for our feeling, but we are responsible for them." Similar to it's not about what happens, but our opinion(s) of what happened.
     - Needs
+      - Physicological safety is a key name in pair programming.
+      - Communicate what you need and ask/listen for what others need.
     - Requests
+      - Be clear. Avoid vague and ambiguous language.
+      - Try to describe what you would like instead of what you would not like. Focusing on the negative might be confusing or more likely misunderstood.
+      - Requests != demands. It's ok for people to say no. Try to emphasize with them.
 
 | Component | Clear and Honest Expression | Empathetic Listening |
 | --- | --- | --- |
