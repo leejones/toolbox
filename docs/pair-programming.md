@@ -16,7 +16,7 @@ A [talk](https://www.youtube.com/watch?v=S-ukCrsrTNw) by Stephanie Minn at RubyC
       - Sometimes we describe things as feelings that really aren't. For example "I feel unsupported by the team" is less of a feeling and more of an assessment/judement about the teams behavior.
       - "External factors can be a stimulus for our feeling, but we are responsible for them." Similar to it's not about what happens, but our opinion(s) of what happened.
     - Needs
-      - Physicological safety is a key name in pair programming.
+      - Physicological safety is a core need in pair programming.
       - Communicate what you need and ask/listen for what others need.
     - Requests
       - Be clear. Avoid vague and ambiguous language.
