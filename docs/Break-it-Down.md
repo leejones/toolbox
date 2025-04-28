@@ -1,0 +1,3 @@
+# Break it Down
+
+This is a theme from Mitchel Hashimoto's [blog post](https://mitchellh.com/writing/contributing-to-complex-projects) titled "Contributing to Complex Projects". He shares his systemat approach to getting involved in complex projects. It's a very practical approach that maximizes value. It uses hands on activities and curiousity to promote active learning. It also helps avoid getting lost/overwhelmed by focusing on specific features or code paths. The tip to read and re-implment recent commits is a great active learning exercise. It checks your understanding and gives you some feedback when you compare your solution to the actual one.
