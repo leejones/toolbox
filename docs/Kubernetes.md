@@ -1,5 +1,15 @@
 Tools and Services for Kubernetes. Items are mostly in alphabetical order.
 
+## kubectl debug
+
+For debugging lower-level issues at the node level, use:
+
+```
+kubectl debug node/NODE --image=ubuntu
+```
+
+Launches a pod on the node with elevated priviledges and mounts the node's filesystem.
+
 ## Case Studies
 
 * The [launch](https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html) of Pokemon Go to millions of users on GKE.
