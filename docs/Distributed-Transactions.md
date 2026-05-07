@@ -14,7 +14,7 @@ How to keep data consistent across different systems.
   - In practice this results in bottlenecks and unreliability
 - Most internet scale companies use the Saga Pattern
   - Embraces eventual consistency.
-  - Uses "compensating transactions" to handle failures, sortof like an "undo".
+  - Uses "compensating transactions" to handle failures, sortof like an "undo".  For example, with a credit card a "charge" would be the initial transaction and a "refund" would be the compensating transaction.
   - Event based.
   - Two ways of coordinating
     - Choreography - (distributed coordination) each system listens for relevent events and responds acorrdingly. Then it emits event(s) acordingly.
