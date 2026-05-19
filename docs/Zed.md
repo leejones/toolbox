@@ -2,8 +2,9 @@
 
 ## Pane Navigation
 
-- `cmd + ?` toggle focus to/from the agent pane
-- `cmd + esc` full-screen the current pane
+- `cmd + r` open/close the agent pane and toggle focus.
+- `cmd + ?` toggle focus to/from the agent pane.
+- `cmd + esc` full-screen the current pane.
 
 ## Multi-Cursor Editing
 
