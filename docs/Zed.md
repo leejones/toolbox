@@ -1,10 +1,11 @@
 # Zed
 
-## Pane Navigation
+## Panel Navigation
 
-- `cmd + r` open/close the agent pane and toggle focus.
-- `cmd + ?` toggle focus to/from the agent pane.
-- `cmd + esc` full-screen the current pane.
+- `cmd + b` open/close the project panel
+- `cmd + r` open/close the agent panel and toggle focus.
+- `cmd + ?` toggle focus to/from the agent panel.
+- `cmd + esc` full-screen the current panel.
 
 ## Multi-Cursor Editing
 
