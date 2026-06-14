@@ -12,12 +12,12 @@
     - `@home` - referenced: 50G, exclusive: 0G
     - `@home-snap` - referenced: 50G, exclusive: 0G
   - Then if you add a 1G file named `file1.txt` to `@home`:
-    - `@home` - referenced: 51G, exclusive: 1G
-    - `@home-snap` - referenced: 50G, exclusive: 0G
+    - `@home` - referenced: 51G, exclusive: 1G (50G shared by both + 1G only on @home)
+    - `@home-snap` - referenced: 50G, exclusive: 0G (50G shared by both)
     - Both point to the same underlying 50G, but `@home` also points to an additional 1G.
   - Then if you delete a 3G file named `file2.txt`:
-    - `@home` - referenced: 48G, exclusive: 1G (47G shared between both + 1G only on @home)
-    - `@home-snap` - referenced: 50G, exclusive: 3G (47G shared between both + 3G only on @home)
+    - `@home` - referenced: 48G, exclusive: 1G (47G shared by both + 1G only on @home)
+    - `@home-snap` - referenced: 50G, exclusive: 3G (47G shared by both + 3G only on @home-snap)
 
 ## Adding a New Subvolume
 
