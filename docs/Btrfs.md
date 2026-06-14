@@ -1,5 +1,24 @@
 # Btrfs
 
+## Terminology
+
+- **subvolume** - Independent mountable partition-like dataset within a btrfs volume.
+- **referenced** - All data a subvolume contains.  May be shared by other subvolumes.
+- **exclusive** - Data that's unique to a subvolume, i.e. not shared by any other subvolumes.
+- **snapshot** - A subvolume that's a read-only copy of another subvolume.
+  - If the original subvolume changes, the snapshot remains unchanged.
+  - They diverge through copy-on-write (CoW) behavior.
+  - For example, if you have subvolume `@home` and create a snapshot `@home-snap`, now you have 2 subvolumes:
+    - `@home` - referenced: 50G, exclusive: 0G
+    - `@home-snap` - referenced: 50G, exclusive: 0G
+  - Then if you add a 1G file named `file1.txt` to `@home`:
+    - `@home` - referenced: 51G, exclusive: 1G
+    - `@home-snap` - referenced: 50G, exclusive: 0G
+    - Both point to the same underlying 50G, but `@home` also points to an additional 1G.
+  - Then if you delete a 3G file named `file2.txt`:
+    - `@home` - referenced: 48G, exclusive: 1G (47G shared between both + 1G only on @home)
+    - `@home-snap` - referenced: 50G, exclusive: 3G (47G shared between both + 3G only on @home)
+
 ## Adding a New Subvolume
 
 Create the subvolume:
