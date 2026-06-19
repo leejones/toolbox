@@ -17,3 +17,8 @@
 
   Deatils about the skill...
   ```
+
+## References
+
+- Matt Pocock's [skills repo](https://github.com/mattpocock/skills).
+- Matt Pocock's [AI Hero website](https://www.aihero.dev/).
