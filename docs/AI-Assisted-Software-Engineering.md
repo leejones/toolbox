@@ -2,6 +2,16 @@
 
 ## Skills
 
+- format:
+
+  ```markdown
+  ---
+  name: <name of skill>
+  description: <description of what skill does>
+  argument-hint: <description of what text can be helpful input to the skill>
+  disable-model-invocation: <true|false - see below>
+  ---
+
 - `disable-model-invocation: true` in the front matter (i.e. header)
   - Indicates this should only be invoked by the user.
   - Prevents the model from loading and invoking the skill on it's own.
